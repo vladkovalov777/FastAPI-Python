@@ -16,3 +16,4 @@ def get_application() -> FastAPI:
         return {"backend": socket.gethostname()}
 
     return app
+
