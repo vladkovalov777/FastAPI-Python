@@ -1,4 +1,4 @@
-x-service-bakend-commo: &service-backend-common
+x-service-backend-common: &service-backend-common
   build:
     dockerfile: Dockerfile
     context: ./backend
