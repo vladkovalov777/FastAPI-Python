@@ -16,3 +16,4 @@ async def get_backend_info():
 async def get_database_info():
     """Get current database info"""
     return {"database_url": settings.DATABASE_ASYNC_URL}
+

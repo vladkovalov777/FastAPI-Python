@@ -16,3 +16,4 @@ def get_application() -> FastAPI:
         app.include_router(info_router, prefix="/info", tags=["INFO"])
 
     return app
+
